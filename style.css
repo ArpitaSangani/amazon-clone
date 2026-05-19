@@ -230,13 +230,10 @@ ul a{
 .copyright{
    padding-top: 5px;
 }
-.dark-mode {
-    background-color: #121212;
-    color: white;
+.panel-ops p {
+    transition: 0.3s;
 }
 
-.dark-mode .navbar,
-.dark-mode .panel,
-.dark-mode footer {
-    background-color: #1f1f1f;
+.panel-ops p:hover {
+    color: yellow;
 }
